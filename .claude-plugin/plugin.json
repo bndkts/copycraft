@@ -1,0 +1,21 @@
+{
+  "name": "copycraft",
+  "version": "0.1.0",
+  "description": "Bilingual (English + German) copywriting toolkit: brand voice, conversion copy, editing, headlines & CTAs, landing pages, SEO, de-AI humanizing, and native German localization that avoids translationese.",
+  "author": {
+    "name": "Benedikt Scheungraber",
+    "email": "benedikt@nebty-id.com"
+  },
+  "homepage": "https://github.com/bndkts/copycraft",
+  "repository": "https://github.com/bndkts/copycraft",
+  "license": "MIT",
+  "keywords": [
+    "copywriting",
+    "marketing",
+    "german",
+    "deutsch",
+    "conversion",
+    "localization",
+    "seo"
+  ]
+}

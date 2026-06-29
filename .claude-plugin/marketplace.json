@@ -1,0 +1,25 @@
+{
+  "name": "copycraft",
+  "owner": {
+    "name": "Benedikt Scheungraber",
+    "email": "benedikt@nebty-id.com"
+  },
+  "version": "0.1.0",
+  "description": "Bilingual (English + German) copywriting skills for Claude.",
+  "plugins": [
+    {
+      "name": "copycraft",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Full bilingual copywriting toolkit: brand voice, conversion copy, editing, headlines & CTAs, landing pages, SEO, de-AI humanizing, and native German localization.",
+      "license": "MIT",
+      "keywords": [
+        "copywriting",
+        "german",
+        "marketing",
+        "conversion",
+        "localization"
+      ]
+    }
+  ]
+}
