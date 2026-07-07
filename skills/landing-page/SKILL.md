@@ -179,10 +179,11 @@ action repeats; every proof slot is mapped to a real, brief-sourced fact.
 >
 > CTA: **Start your free trial** · *No credit card. Set up in an afternoon.*
 
-Why: each feature leads with the owner's moment of relief, then names the mechanism; the
-cost preview is proven by *when* it appears (before publishing), not praised as "smart";
-no two blocks open with the same subject (the cohesion pass at work); the CTA points at
-the page's one action.
+Why: the three headline blocks lead with the owner's moment of relief, then name the
+mechanism — while the weekly report is deliberately underweighted to a quiet fact line,
+because not every feature earns a bolded promise; the cost preview is proven by *when*
+it appears (before publishing), not praised as "smart"; no two blocks open with the same
+subject (the cohesion pass at work); the CTA points at the page's one action.
 
 ## Hard rules vs. contested style
 
