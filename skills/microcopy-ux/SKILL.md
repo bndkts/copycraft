@@ -140,7 +140,9 @@ beiden Buttons.
   German typography and Verbalstil on buttons.
 - **Never fake progress or success** ("Saved!" before the write is confirmed).
 
-**Contested style (smells — downgrade, never forbid):**
+**Contested style (smells — downgrade, never forbid):** these rest on usability
+research and field practice (e.g. Nielsen Norman Group's error-message guidance), not on
+a Duden-grade authority — the brand brief decides.
 - **Cutesy error voice** ("Oops! Our hamsters fell off the wheel") — hostile in stressed
   moments; a light touch can fit a consumer brand's *low-stakes* surfaces. Brand choice,
   scoped by moment.

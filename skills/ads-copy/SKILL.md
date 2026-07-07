@@ -131,7 +131,9 @@ Floskel — der Wettbewerber-Test gilt auch für 20 Zeichen.
 - **German mechanics** hold: no Deppenleerzeichen (even to save characters), correct
   numbers/currency, no „in 2024“.
 
-**Contested style (smells — downgrade, never forbid):**
+**Contested style (smells — downgrade, never forbid):** no Duden-grade authority exists
+here — the sources are platform editorial policies and field practice, and the brand
+brief decides.
 - **Exclamation marks and ALL CAPS** — platform policies restrict excessive use; one can
   fit a du-register consumer brand. Default to none for Sie-B2B.
 - **Emoji in primary text** — audience-dependent; fine for consumer feeds, off for most

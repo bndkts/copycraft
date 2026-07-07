@@ -133,8 +133,8 @@ registriert und Spanisch gewählt. Anrede du. Ein Ziel: erste Lektion starten (7
 > schön, dass du da bist. Dein Spanisch-Kurs ist eingerichtet – die erste Lektion
 > dauert 7 Minuten und bringt dir die Begrüßung bei, die du in Madrid wirklich hörst.
 >
-> Am meisten bringt der Anfang, wenn er heute passiert: Wer die erste Lektion am
-> ersten Tag macht, bleibt deutlich eher dran.
+> Am meisten bringt's, wenn du gleich heute startest: Wer die erste Lektion am ersten
+> Tag macht, bleibt deutlich eher dran.
 >
 > **[Erste Lektion starten]** · 7 Minuten, direkt im Browser.
 >
@@ -143,7 +143,7 @@ registriert und Spanisch gewählt. Anrede du. Ein Ziel: erste Lektion starten (7
 
 **Why:** ein Job (erste Lektion), ein CTA. Der Betreff ist konkret und ehrlich, die
 Anrede durchgehend du – auch im Button. Der Nutzen ist greifbar („die Begrüßung, die du
-in Madrid wirklich hörst“) statt abstrakt („verbessere deine Skills“). Kein Feature-Tour.
+in Madrid wirklich hörst“) statt abstrakt („verbessere deine Skills“). Keine Feature-Tour.
 
 ## Hard rules vs. contested style
 
@@ -159,7 +159,9 @@ in Madrid wirklich hörst“) statt abstrakt („verbessere deine Skills“). Ke
 - **du/Sie consistent** across subject, body, button, and footer; German typography holds
   in email copy including the subject.
 
-**Contested style (smells — downgrade, never forbid):**
+**Contested style (smells — downgrade, never forbid):** unlike the German style smells
+(where Duden or Eisenberg can be cited), these have no canonical authority — they are
+field judgment calls, and the brand brief decides.
 - **Emoji in subject lines** — measurable effects vary by audience; for formal Sie-B2B
   default to none, for du-consumer brands they can fit. Brand choice.
 - **"Oops, we missed you"-style faux-casual re-sends** — often reads manipulative;
