@@ -47,7 +47,7 @@ Everything lands in **`.claude/brand-brief.md`** in the user's project root. One
 checked into their repo, human-editable. The reason for a single source of truth: voice
 drift is the most common failure in multi-author (and multi-prompt) copy. If each skill
 guessed the tone, every page would sound slightly different. The brief makes the brand's
-decisions binding so the other eleven skills don't re-litigate them.
+decisions binding so the other skills don't re-litigate them.
 
 ## The interview
 

@@ -10,6 +10,41 @@ When you cut a release, bump the version in three places: `.claude-plugin/plugin
 
 ## [Unreleased]
 
+### Added
+
+- **Three new skills** (fifteen total): `email-copy` (marketing & lifecycle emails —
+  subjects, preheaders, welcome/trial-end/win-back, newsletters, German legal basics),
+  `ads-copy` (Google RSA / Meta / LinkedIn inside real character limits, message match,
+  RSA combinability, German character economics), `microcopy-ux` (buttons, errors,
+  empty states, forms, dialogs — the surfaces where du/Sie mixing actually creeps in).
+- **Voice samples (Stimmproben)** in the brand brief: section 9 of the template plus a
+  brand-voice interview step. Generation skills now match the samples' rhythm and word
+  choice — samples beat adjectives.
+- **Variants-then-judgment** in `texten-de` and `copywriting-en`: high-stakes units
+  (hero, value props, primary CTA) are drafted 2–3 ways from distinct angles, judged
+  against the checklist, delivered as winner + A/B runner-up.
+- **Awareness stage** in `landing-page`: problem-/solution-/product-aware decides the
+  section weights (mirrors `seo-copy`'s search-intent move).
+- **Whole-page cohesion pass** in `landing-page`: varied section openings and shapes,
+  no word echoes, heading-skim check — the page-level AI tell no sentence check catches.
+- **Machine pre-scan** in `typografie-de`: eight tested grep patterns plus the
+  U+201E/U+201C count check for the visually-invisible wrong closing quote.
+- **Length limits** in `headlines-and-ctas`: buttons ≤ ~25 chars, mobile-wrap check,
+  the 20–30% German-growth rule for localized mockups.
+- `evals/test-briefs.md`: five fixed briefs + rubric to benchmark skill changes
+  before/after instead of judging anecdotally.
+
+### Changed
+
+- **Brand-brief lookup standardized everywhere**: `.claude/brand-brief.md`, then
+  project root — previously four different wordings meant a skill could silently miss
+  the brief and drift off-voice.
+- **Worked examples de-anchored from brand protection**: one example per skill moved to
+  a new domain (salon booking, restaurant scheduling, Zeiterfassung, HR, email
+  marketing, fitness, Steuer-App, team workspace) so the security-B2B register doesn't
+  bleed into every output; `examples/before-after-{de,en}.md` gained second-domain
+  sections; `reference-sites.md`'s brand-specific competitor section generalized.
+
 ## [0.1.0] - 2026-06-29
 
 Initial release — a bilingual (English + German) copywriting toolkit for Claude.
