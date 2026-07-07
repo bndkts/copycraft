@@ -107,7 +107,7 @@ when a sample and an adjective pull apart, the sample wins.›
 - **Email opener:** ‹an approved first sentence of a customer email›
 - **CTA + friction-reducer:** ‹an approved button + the line beside it›
 
-**Never like this (one counter-example):**
+**Never like this (counter-example):**
 > ‹one sentence that is exactly what the brand must NOT sound like — ideally a real,
 > rejected draft›
 
