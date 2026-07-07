@@ -103,9 +103,9 @@ Headlines and CTAs live inside components with real space budgets. An option tha
 overflows its surface is not an option, so check lengths before presenting:
 
 - **Buttons:** aim for **≤ ~25 characters** including spaces. German compounds burn the
-  budget fast — prefer a verb phrase („Kostenlos testen“, 16 chars) over a noun compound
-  („Markenschutz-Analyse anfordern“, 30). If a benefit clause doesn't fit the button, move
-  it to the friction-reducer line beside it.
+  budget fast — prefer a short verb-first phrase („Kostenlos testen“, 16 chars) over a
+  verb weighed down by a long compound object („Markenschutz-Analyse anfordern“, 30). If
+  a benefit clause doesn't fit the button, move it to the friction-reducer line beside it.
 - **Hero headlines:** ≤ ~8–10 words / ~60 characters. Check the mobile wrap: a headline
   that breaks into four lines on a phone loses the scanner before the promise lands.
 - **Subheads:** one scannable line on desktop, ~2 lines mobile (~140 characters).
