@@ -38,8 +38,9 @@ Zwei Dinge sauber trennen:
 
 ## Ablauf
 
-1. **Markenbrief lesen.** Suche `brand-brief.md` (meist `.claude/brand-brief.md` im
-   Projekt). Steht dort eine du/Sie-Entscheidung, ist sie die **Zielanrede** – ohne
+1. **Markenbrief lesen.** Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md`
+   im Stammverzeichnis des Projekts. Steht dort eine du/Sie-Entscheidung, ist sie die
+   **Zielanrede** – ohne
    Rückfrage. Steht dort ein Glossar oder verbotene Wörter, beachte sie mit.
 2. **Keine Entscheidung im Brief?** Dann hilf entscheiden (siehe „Entscheiden“). Frag
    die Zielgruppe ab, nicht die „Tech-heit“ des Produkts. Schlage eine Anrede vor,
@@ -94,7 +95,7 @@ kostet weniger als ein falsches du – die Details in `references/du-sie-regeln-
 
 ## Beispiele
 
-> Alle Beispiele sind konstruiert (Domäne: Markenschutz) und stammen nicht von realen Seiten.
+> Alle Beispiele sind konstruiert und stammen nicht von realen Seiten.
 
 **Beispiel 1 – gemischter Hero + CTA, Zielanrede Sie**
 
@@ -112,16 +113,16 @@ Output:
 Geändert wurde nur die Anrede: Imperativ „Erfahre“ → „Erfahren Sie“, Pronomen „du“ → „Sie“,
 Verbendung „meldest“ → „melden“. Aussage und Ton bleiben.
 
-**Beispiel 2 – gemischtes Possessiv im Button, Zielanrede du**
+**Beispiel 2 – gemischtes Possessiv im Button, Zielanrede du (Domäne: Fitness-App)**
 
 Input:
-> „Hol dir deinen Markenschutz und sichern Sie sich Ihren Report.“
+> „Hol dir deinen Trainingsplan und sichern Sie sich Ihren Rabatt.“
 
 Markierung: Erster Teil duzt („Hol dir“, „deinen“), zweiter Teil siezt („sichern Sie sich“,
 „Ihren“). Hier ist der Brief auf du festgelegt → zweiten Teil angleichen.
 
 Output:
-> „Hol dir deinen Markenschutz und sichere dir deinen Report.“
+> „Hol dir deinen Trainingsplan und sichere dir deinen Rabatt.“
 
 Imperativ „sichern Sie sich“ → „sichere dir“, Possessiv „Ihren“ → „deinen“. Beachte: bei du
 wird das Possessiv kleingeschrieben („deinen“), bei Sie groß („Ihren“) – eine der Stellen,

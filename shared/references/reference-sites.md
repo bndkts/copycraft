@@ -57,13 +57,13 @@ tone, scannable structure, one idea per section.
 
 ---
 
-## nebty's own competitive space — **add 2–3 sites here**
+## Your competitive space — add 2–3 sites per brand
 
-Add real peer/competitor sites in brand protection / anti-phishing / digital risk (both
-DE and EN) so the skills can contrast against actual domain copy. Candidates flagged
-during research as positioning/design references: **Doppel, Netcraft, Vanta, Wiz** (judge
-their copy independently). Record for each: language, du/Sie, and one pattern to emulate
-or avoid.
+For each brand you write for, add its real peer/competitor sites (both DE and EN) so the
+skills can contrast against actual domain copy — what the market sounds like is the
+baseline the copy must beat, and the competitor copy-paste test needs real competitors
+to bite. Record for each: language, du/Sie, and one pattern to emulate or avoid. Keep
+this list per project (or inside the brand brief) rather than growing a global list here.
 
 - _(add site)_ — lang: _ · Anrede: _ · note: _
 - _(add site)_ — lang: _ · Anrede: _ · note: _

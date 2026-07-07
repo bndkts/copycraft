@@ -50,9 +50,12 @@ Deine Disziplin hier ist **minimal-invasiv** – Marker raus, Stimme rein, sonst
 Geh in dieser Reihenfolge vor. Schritt 2 ist der wichtigste – ohne Stimmprobe produzierst
 du nur „sauberes“, aber wieder generisches Deutsch.
 
-1. **Markenbrief lesen, falls vorhanden.** Gibt es eine `brand-brief.md`? Dann übernimm
-   Anrede (du/Sie), Tonalität, Glossar (welche Begriffe bleiben englisch, z. B. „das
-   Dashboard“), verbotene Wörter. Der Brief **schlägt** jede Regel hier. Fehlt er,
+1. **Markenbrief lesen, falls vorhanden.** Suche zuerst `.claude/brand-brief.md`, dann
+   `brand-brief.md` im Stammverzeichnis des Projekts. Übernimm daraus Anrede (du/Sie),
+   Tonalität, Glossar
+   (welche Begriffe bleiben englisch, z. B. „das Dashboard“), verbotene Wörter. Enthält
+   der Brief **Stimmproben**, nutze sie als Kalibrier-Maßstab (Schritt 2), wenn die
+   Autorin keine eigene Probe liefert. Der Brief **schlägt** jede Regel hier. Fehlt er,
    arbeite weiter – **nie** auf einen fehlenden Brief warten.
 
 2. **Stimmprobe einholen oder ableiten.** Hat die Autorin 2–3 Absätze eigener Texte? Dann
@@ -135,21 +138,21 @@ Die sechs häufigsten Verräter und ihr Fix. Vollständige Beispiele in
 Überwachung“ → „überwachen / finden“. Leere Adjektive (innovativ, ganzheitlich,
 skalierbar, zukunftssicher) sind durch konkrete Handlungen ersetzt.
 
-**Beispiel 2 – Sie-Steifheit + Dreierfigur + leerer Superlativ**
+**Beispiel 2 – Sie-Steifheit + Dreierfigur + leerer Superlativ (andere Domäne: HR-Software)**
 
 ✗ *Input (klingt nach KI):*
-> „Wir möchten Sie höflich darauf hinweisen, dass unsere Lösung nicht nur leistungsstark,
-> sondern auch zuverlässig und vertrauenswürdig ist. Es handelt sich um den besten
-> Markenschutz am Markt.“
+> „Wir möchten Sie höflich darauf hinweisen, dass unsere HR-Plattform nicht nur intuitiv,
+> sondern auch flexibel und skalierbar ist. Es handelt sich um die beste Lösung für
+> modernes Personalmanagement am Markt.“
 
 ✓ *Output (menschlich, Sie):*
-> „Unser Markenschutz prüft rund um die Uhr über 200 Plattformen. Bei einem Treffer melden
-> wir die Seite innerhalb von 24 Stunden zur Löschung. DSGVO-konform, Serverstandort
-> Deutschland.“
+> „Mit [Produkt] steht der Dienstplan in Minuten, nicht in Stunden. Urlaubsanträge
+> genehmigen Sie mit einem Klick – und die Lohnbuchhaltung bekommt am Monatsende einen
+> sauberen Export. Über [3.000] Teams planen so ihre Schichten.“
 
 *Warum:* Die aufgeblähte Höflichkeit („Wir möchten Sie höflich darauf hinweisen, dass…“)
 ist gestrichen. Die importierte Dreierfigur und der Scheinparallelismus („nicht nur …,
-sondern auch …“) sind durch prüfbare Fakten ersetzt. Der leere Superlativ („der beste …
+sondern auch …“) sind durch prüfbare Fakten ersetzt. Der leere Superlativ („die beste …
 am Markt“) weicht Zahlen, die genau deshalb Vertrauen schaffen.
 
 ---

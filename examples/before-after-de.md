@@ -2,9 +2,10 @@
 
 > **Hinweis:** Alle Beispiele sind **selbst konstruiert** und dienen nur zur
 > Veranschaulichung. Sie stammen **nicht** von der nebty-Website oder von Mitbewerbern.
-> Domäne: Markenschutz / Brand Protection (B2B-Security). Anrede: **Sie**, modern und
-> warm, kein Amtsdeutsch. Vor Veröffentlichung von einer muttersprachlichen Texterin
-> prüfen lassen.
+> Abschnitte 1–6: Markenschutz / Brand Protection (B2B-Security), Anrede **Sie**, modern
+> und warm, kein Amtsdeutsch. Abschnitt 7 zeigt eine zweite Domäne im **du**-Register,
+> damit die Muster nicht an einer Branche kleben. Vor Veröffentlichung von einer
+> muttersprachlichen Texterin prüfen lassen.
 
 Jedes Paar zeigt: ✗ übersetzt/floskelhaft → ✓ idiomatisch, plus *warum*. Die Regeln
 dahinter stehen in `skills/copy-polish/references/lektorat-de.md`,
@@ -96,3 +97,31 @@ Ersetzt durch prüfbare Fakten, die genau deshalb Vertrauen schaffen.
 | Social Media Plattform | Social-Media-Plattform | kein Deppenleerzeichen, durchkoppeln |
 | 20% | 20 % | Leerzeichen vor dem Prozentzeichen |
 | 29/06/2026 | 29.06.2026 / 29. Juni 2026 | deutsches Datumsformat |
+
+---
+
+## 7. Zweite Domäne, du-Register (Steuer-App für Freelancer)
+
+Dieselben Regeln, andere Branche, andere Anrede – die Muster gelten überall.
+
+**✗ Vorher (Hero)**
+> „Unsere innovative Steuer-Lösung ermöglicht die Vereinfachung deiner
+> Steuererklärung und macht am Ende des Tages den Unterschied.“
+
+**✓ Nachher**
+> „Deine Steuererklärung ist in 30 Minuten fertig – nicht an einem verlorenen
+> Wochenende.“
+
+**Warum:** „Ermöglicht die Vereinfachung“ (Nominalstil) wird zum konkreten Ergebnis mit
+Zeitangabe. Floskel „innovativ“ und Calque „am Ende des Tages“ gestrichen. du konsequent.
+
+**✗ Vorher (Feature)**
+> „Die Erfassung deiner Belege erfolgt automatisiert zur Optimierung deiner Rückerstattung.“
+
+**✓ Nachher**
+> „Fotografier den Beleg, den Rest übernimmt die App – und du verschenkst keine
+> Werbungskosten mehr.“
+
+**Warum:** „Erfassung … erfolgt … zur Optimierung“ → aktive Verben („fotografier“,
+„übernimmt“). Der abstrakte Nutzen („Optimierung der Rückerstattung“) wird zum greifbaren
+(„keine Werbungskosten verschenken“). Imperativ im du-Register, kein Denglisch.
