@@ -95,6 +95,24 @@ game-changing, seamless, robust, leverage. ‹+ add the brand's own pet peeves�
 **Brand preferences (NOT errors — recorded because the brand dislikes them):**
 ‹e.g. "Sinn machen" → use "ergibt Sinn" (note: contested; Eisenberg defends "Sinn machen" —
 this is a house-style choice, not a correctness rule)›
+
+## 9. Voice samples (Stimmproben) — golden copy
+‹3–5 real, **approved** lines of on-brand copy, each labeled with its surface. These are
+the strongest voice control in this brief: adjectives describe the voice, samples
+demonstrate it. Skills match the samples' sentence length, rhythm, and word choice —
+when a sample and an adjective pull apart, the sample wins.›
+
+- **Hero:** ‹an approved hero line›
+- **Feature blurb:** ‹an approved short paragraph›
+- **Email opener:** ‹an approved first sentence of a customer email›
+- **CTA + friction-reducer:** ‹an approved button + the line beside it›
+
+**Never like this (counter-example):**
+> ‹one sentence that is exactly what the brand must NOT sound like — ideally a real,
+> rejected draft›
+
+Why it's off: ‹one line — name the tells, e.g. "Floskel stack, no fact, any competitor
+could say it"›
 ```
 
 ---
@@ -174,4 +192,22 @@ einer Hand“, „Ihr verlässlicher Partner“, world-class, cutting-edge, seam
 
 **Brand preferences (not errors):** avoid „am Ende des Tages“ (calque) → use „unterm Strich“;
 prefer „ergibt Sinn“ over „Sinn machen“ (house style; the latter is contested, not wrong).
+
+## 9. Voice samples (Stimmproben) — golden copy
+
+- **Hero:** „Gefälschte Shops mit Ihrem Logo? Sie erfahren es zuerst – und wir nehmen
+  sie vom Netz.“
+- **Feature blurb:** „Wir überwachen über 200 Plattformen rund um die Uhr. Bei einem
+  Treffer melden wir die Seite innerhalb von 24 Stunden zur Löschung – und Sie sehen
+  jeden Schritt im Dashboard.“
+- **Email opener:** „Kurzes Update zu Ihrer Marke: drei neue Funde diese Woche, zwei
+  davon sind bereits offline.“
+- **CTA + friction-reducer:** „Markenschutz starten“ · „Keine Kreditkarte nötig.“
+
+**Never like this (counter-example):**
+> „Als Ihr verlässlicher Partner für ganzheitlichen Markenschutz setzen wir Maßstäbe in
+> der digitalen Sicherheit.“
+
+Why it's off: Floskel stack (verlässlicher Partner, ganzheitlich, Maßstäbe setzen), no
+fact, no reader — any competitor could paste it unchanged.
 ```

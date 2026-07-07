@@ -3,11 +3,12 @@ name: brand-voice
 description: >-
   Defines a brand's voice and creates the shared brand-brief.md that every other
   copycraft skill reads. Use when setting up brand copy guidelines, defining tone of
-  voice, positioning, target audience, proof points, a terminology glossary, or banned
-  words — or deciding du vs. Sie for German. Trigger phrases: "set up my brand", "define
-  brand voice", "brand brief", "tone of voice", "create brand guidelines"; German:
-  "Markenstimme festlegen", "Markenbrief erstellen", "Tonalität definieren", "Anrede du
-  oder Sie festlegen", "Marken-Wording". Run this first.
+  voice, positioning, target audience, proof points, a terminology glossary, banned
+  words, or approved voice samples (Stimmproben) — or deciding du vs. Sie for German.
+  Trigger phrases: "set up my brand", "define brand voice", "brand brief", "tone of
+  voice", "create brand guidelines", "voice samples"; German: "Markenstimme festlegen",
+  "Markenbrief erstellen", "Tonalität definieren", "Anrede du oder Sie festlegen",
+  "Marken-Wording", "Stimmproben". Run this first.
 ---
 
 # Brand Voice
@@ -98,6 +99,18 @@ ganzheitlich, maßgeschneidert, "Lösungen aus einer Hand", world-class, cutting
 seamless, "Ihr starker Partner" …) and invite the user to extend it with their own pet
 peeves. Each banned word should be replaced by a concrete fact, number, or mechanism — not
 just deleted.
+
+**9. Voice samples (Stimmproben) — the strongest voice control in the brief.** Adjectives
+*describe* the voice; samples *demonstrate* it — and downstream skills imitate a sample far
+more faithfully than they obey an adjective. Collect 3–5 real, **approved** lines of
+on-brand copy, each labeled with its surface (hero, feature blurb, email opener, CTA +
+friction-reducer). Source them from existing copy the user is proud of. If nothing usable
+exists yet, **co-draft them right here**: propose one on-voice line from the answers so
+far, refine it with the user until they say "yes, that's us," and record that. Also capture
+**one counter-example** — a sentence that is exactly what the brand must never sound like
+(ideally a real rejected draft) — with a one-line *why it's off*. Tell the user the
+generation skills will match the samples' sentence length, rhythm, and word choice; when a
+sample and an adjective pull apart, the sample wins.
 
 ## The du/Sie decision (German), made binding
 
@@ -199,14 +212,15 @@ replacement instruction so copy improves rather than just shrinking.
 Assemble answers into `.claude/brand-brief.md` using `references/brand-brief-template.md`.
 Fill every section you have answers for; leave a clearly marked `TODO` for the ones the
 user skipped, so the gap is visible rather than invented. Show the user the result and
-confirm the du/Sie line and the proof points especially — those are the highest-leverage,
-most-misremembered fields. Tell them the other skills will now read this file automatically.
+confirm the du/Sie line, the proof points, and the voice samples especially — those are
+the highest-leverage, most-misremembered fields. Tell them the other skills will now read
+this file automatically.
 
 ## References — read these when relevant
 
 | File | When to read it |
 |---|---|
-| `references/brand-brief-template.md` | Always — it's the structure you fill in, with the verb-pair list, trust-vocabulary seeds, glossary columns, the Floskeln banned-words seed, and one filled example (nebty, B2B security, Sie). |
+| `references/brand-brief-template.md` | Always — it's the structure you fill in, with the verb-pair list, trust-vocabulary seeds, glossary columns, the Floskeln banned-words seed, the voice-samples (Stimmproben) section, and one filled example (nebty, B2B security, Sie). |
 | `references/voice-dimensions.md` | When the user's voice words are vague or they want help choosing — adjective↔anti-adjective pairs, a menu of dimensions, and the voice-vs-tone distinction. |
 
 **Optional enrichment (not required):** if working inside the full copycraft plugin,
