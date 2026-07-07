@@ -21,11 +21,14 @@ Text (dafür: `copy-polish`).
 
 Drei Dinge klärst du immer zuerst. Sie entscheiden über die halbe Qualität des Textes.
 
-1. **Markenbrief lesen.** Gibt es eine `brand-brief.md`? Dann lies sie und übernimm:
-   Anrede (du/Sie), Tonalität, Glossar (welche Begriffe bleiben englisch, z. B. „das
-   Dashboard“), verbotene Wörter, Zielgruppe. **Der Markenbrief schlägt jede Regel hier.**
-   Ohne Markenbrief fragst du kurz nach Anrede und Zielgruppe oder triffst eine begründete
-   Annahme und machst sie transparent.
+1. **Markenbrief lesen.** Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md`
+   im Projektstamm. Existiert die Datei, lies sie und übernimm: Anrede (du/Sie),
+   Tonalität, Glossar (welche Begriffe bleiben englisch, z. B. „das Dashboard“),
+   verbotene Wörter, Zielgruppe. **Der Markenbrief schlägt jede Regel hier.** Enthält er
+   **Stimmproben** (freigegebene Beispielzeilen), sind sie dein stärkster Maßstab: Bilde
+   ihre Satzlänge, ihren Rhythmus und ihre Wortwahl nach – Stimmproben schlagen die
+   Voice-Adjektive. Ohne Markenbrief fragst du kurz nach Anrede und Zielgruppe oder
+   triffst eine begründete Annahme und machst sie transparent.
 
 2. **Anrede festlegen – und durchziehen.** du oder Sie, eine Entscheidung für den ganzen
    Text. Das **Mischen** von du und Sie ist der schlimmste Fehler: Es zerstört Vertrauen,
@@ -124,6 +127,24 @@ vorkommt, damit du nie eine übersetzte „Get started“-Schablone ausgibst.
 
 ---
 
+## Erst Varianten, dann Urteil
+
+Bei Einheiten mit großem Hebel – Hero, Value Proposition, zentrale CTAs – lieferst du
+nie den ersten Wurf. Entwirf **2–3 Varianten aus verschiedenen Winkeln**:
+
+- **Nutzen zuerst:** das Ergebnis für den Leser als klare Aussage.
+- **Schmerz zuerst:** das Problem, das der Leser loswerden will, in seinen Worten.
+- **Mechanismus zuerst:** das Wie als Beweis („Erkennen, melden, bestätigen“).
+
+Dann urteile nach der Checkliste, nicht nach Bauchgefühl: Besteht die Variante den
+Wettbewerber-Test? Trägt sie einen Beleg? Beginnt der CTA mit einem starken Verb? Passt
+sie zur Stimmprobe aus dem Markenbrief? Liefere die stärkste Variante als Empfehlung
+und die zweitstärkste als A/B-Kandidaten – mit je einem Satz Begründung. Den Rest
+verwirfst du kommentarlos. Für Fließtext und Nebensektionen reicht ein sauberer Wurf;
+die Varianten-Disziplin gilt dort, wo ein einzelner Satz über die Conversion entscheidet.
+
+---
+
 ## Zwei Beispiele (Input → Output)
 
 > Beide Beispiele sind **konstruiert** und dienen nur der Veranschaulichung.
@@ -179,7 +200,8 @@ Lade nur, was du gerade brauchst (Progressive Disclosure):
   mit Wettbewerber-Test und das Trust-Vokabular (§H) sowie die Hero-/Value-Prop-Muster (§F).
 - **`references/cta-und-anrede-de.md`** – sobald ein CTA oder eine Anrede-Entscheidung
   ansteht. Enthält die native CTA-Map (§F) und die du/Sie-Verbpaare (§E).
-- **`brand-brief.md`** (im Projekt, falls vorhanden) – immer zuerst; schlägt jede Regel.
+- **`brand-brief.md`** (zuerst `.claude/brand-brief.md`, dann im Projektstamm) – immer
+  zuerst; schlägt jede Regel. Stimmproben darin sind der Maßstab für Rhythmus und Wortwahl.
 - Optional: `shared/references/conversion-principles.md` zur Vertiefung. Nicht nötig,
   damit der Skill funktioniert.
 
