@@ -17,8 +17,10 @@ and a recommended pick.
 
 ## Before you start: read the brand brief
 
-If `.claude/brand-brief.md` (or a brand brief the user pastes) exists, read it first and
-let it win over any default here. Pull four things:
+If `.claude/brand-brief.md` exists (then check `brand-brief.md` in the project root, or
+take a brief the user pastes), read it first and let it win over any default here. If it
+carries **voice samples (Stimmproben)**, match their rhythm and word choice in every
+option — samples beat the adjectives. Pull four things:
 
 - **du or Sie** (German only) — this fixes every pronoun and verb form in your CTAs. The
   worst error in German copy is mixing the two inside one journey, which reads as careless
@@ -94,6 +96,25 @@ reference).
 The same instinct applies in reverse for English: a German-thought CTA translated to
 English ("Make a request," "Inform yourself") reads foreign. Use native English —
 "Get a quote," "See it in action."
+
+## Length limits — where copy gets cut off
+
+Headlines and CTAs live inside components with real space budgets. An option that
+overflows its surface is not an option, so check lengths before presenting:
+
+- **Buttons:** aim for **≤ ~25 characters** including spaces. German compounds burn the
+  budget fast — prefer a short verb-first phrase („Kostenlos testen“, 16 chars) over a
+  verb weighed down by a long compound object („Markenschutz-Analyse anfordern“, 30). If
+  a benefit clause doesn't fit the button, move it to the friction-reducer line beside it.
+- **Hero headlines:** ≤ ~8–10 words / ~60 characters. Check the mobile wrap: a headline
+  that breaks into four lines on a phone loses the scanner before the promise lands.
+- **Subheads:** one scannable line on desktop, ~2 lines mobile (~140 characters).
+- **Meta titles and descriptions** have their own ceilings — that's `seo-copy`'s table,
+  not this skill.
+
+When localizing from an English mockup, budget for growth: German runs roughly 20–30%
+longer than English, so a button that fits in the Figma frame in English may not survive
+the translation. Say so when it happens; don't silently produce an overflowing option.
 
 ## Hard rules vs. contested style
 
@@ -181,6 +202,7 @@ German option that reads like a rendered English string.
 
 - [ ] Benefit-first; one promise per headline.
 - [ ] CTA = action verb + benefit; one primary action; friction-reducer offered.
+- [ ] Options fit their surface: button ≤ ~25 chars, headline survives the mobile wrap.
 - [ ] German CTA is native (mapped via `references/headlines-ctas-de.md`), not translated.
 - [ ] du/Sie matches the brief and is consistent across every option.
 - [ ] Passes the competitor copy-paste test (no line a rival could reuse verbatim).

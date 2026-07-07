@@ -29,8 +29,9 @@ etwas auffällt, weise kurz darauf hin – aber korrigiere hier nur die Mechanik
 
 ## Markenbrief zuerst (falls vorhanden)
 
-Lies `brand-brief.md`, wenn er existiert. Er kann Mechanik-Entscheidungen festlegen, die
-sonst Varianten wären:
+Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md` im Stammverzeichnis des
+Projekts. Existiert
+die Datei, lies sie: Sie kann Mechanik-Entscheidungen festlegen, die sonst Varianten wären:
 
 - **Anführungszeichen-Stil**: deutsche `„…“` oder Guillemets `»…«` – beide korrekt, aber
   pro Marke nur einer. Halte dich an die Festlegung; ohne Festlegung nimm `„…“`.
@@ -53,6 +54,39 @@ etwas. Lies die Details in `references/typografie-regeln-de.md`, wenn ein Fall u
 
 Gib am Ende den korrigierten Text aus und darunter eine knappe Liste der Änderungen mit
 der jeweiligen Regel, damit die Korrektur nachvollziehbar bleibt.
+
+## Maschinelle Vorprüfung (optional, wenn eine Shell verfügbar ist)
+
+Die meisten harten Fehler sind mit Suchmustern auffindbar – Augen übersehen, Muster
+nicht. Läuft diese Skill in einer Umgebung mit Shell (z. B. Claude Code) und liegt der
+Text als Datei vor, führe **vor** der Abgabe diese Suchen durch und beurteile jeden
+Treffer von Hand. copycraft bleibt dabei reines Markdown: Die Skill liefert keine
+Skripte aus, nur Muster, die du bei Bedarf ausführst. Jede Zeile ist ein eigenes,
+direkt lauffähiges Muster – ohne Escapes, die erst entfernt werden müssten.
+
+| Fehlerkandidat | Suchmuster (ERE, `grep -nE` oder `rg -n`) |
+|---|---|
+| Gerades `"` im deutschen Fließtext | `"` |
+| ASCII-Schließer nach deutschem Öffner: `„…"` | `„[^„“]*"` |
+| Englische Schließer `”` (in deutschem Fließtext nur innerhalb englischer Zitate korrekt) | `”` |
+| Geviertstrich `—` | `—` |
+| Prozent ohne Leerzeichen | `[0-9]%` |
+| Geklebte Währung (Symbol am Betrag) | `[0-9]€` |
+| Vorangestellte Währung (Symbol vor dem Betrag) | `€ ?[0-9]` |
+| „in“ vor blanker Jahreszahl | `\bin 20[0-9]{2}\b` |
+| US-Datum | `[0-9]{1,2}/[0-9]{1,2}/[0-9]{2,4}` |
+
+Dazu die **Mengenprobe** für Anführungszeichen: Pro Datei muss die Anzahl der Öffner `„`
+(U+201E) der Anzahl der Schließer `“` (U+201C) entsprechen. Der Schließer `“` ist
+optisch leicht mit dem geraden `"` und dem englischen Öffner zu verwechseln – genau
+deshalb ist er der häufigste maschinell eingeschleppte Fehler, und genau deshalb zählt
+man ihn, statt ihn zu suchen.
+
+Zwei Vorbehalte: **Jeder Treffer ist ein Kandidat, kein Urteil.** Code-Spans,
+Absichts-Beispiele (etwa eine Zeile, die den Geviertstrich als verboten vorführt) und
+englische Zitate im deutschen Text bleiben unangetastet. Und die Suche ersetzt die vier
+Durchgänge nicht – Deppenleerzeichen und Durchkopplung sind nicht zuverlässig maschinell
+zu fassen und bleiben Handarbeit.
 
 ## Die vier Felder in Kürze
 
