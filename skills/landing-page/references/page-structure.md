@@ -285,9 +285,13 @@ The nine sections are a default, not a mold. Adapt to the offer:
 - **High-trust / high-price (security, finance, health):** weight the Proof and Trust
   sections heavily and repeat trust signals; the market's fear of being burned means proof
   carries the page.
-- **Cold traffic:** spend more on Problem/agitation; the reader doesn't yet feel the stake.
-- **Warm / branded traffic:** compress the problem; they already know it — lead with the
-  differentiator and proof.
+- **Cold traffic (problem-aware):** the reader feels the pain but doesn't know solutions
+  exist — spend more on Problem/agitation and "How it works"; don't rush the ask.
+- **Warm traffic (solution-aware):** they're comparing approaches or vendors; compress the
+  problem to a nod — lead with the differentiator and proof.
+- **Branded traffic (product-aware):** they know *you* and came to decide; weight FAQ,
+  trust line, and friction-reducers, and put the ask high. Matching the page to the
+  reader's awareness stage is the same move `seo-copy` makes with search intent.
 - **Long sales page:** repeat the CTA after every 1–2 sections, always the same action,
   always with a reason to click now.
 
