@@ -50,7 +50,8 @@ meist eine Übersetzung – und selten gutes Deutsch.
 
 ## Den Markenbrief lesen (falls vorhanden)
 
-Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md` im Projektstamm. Existiert
+Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md` im Stammverzeichnis des
+Projekts. Existiert
 die Datei, entscheidet sie über **du oder Sie**, Tonalität, Glossar (welche englischen
 Begriffe bleiben, z. B. „Phishing“, „Takedown“), gesperrte Wörter und Proof-Punkte.
 Enthält sie **Stimmproben**, schreib dein Deutsch auf deren Satzlänge, Rhythmus und

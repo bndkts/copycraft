@@ -51,7 +51,8 @@ Geh in dieser Reihenfolge vor. Schritt 2 ist der wichtigste – ohne Stimmprobe 
 du nur „sauberes“, aber wieder generisches Deutsch.
 
 1. **Markenbrief lesen, falls vorhanden.** Suche zuerst `.claude/brand-brief.md`, dann
-   `brand-brief.md` im Projektstamm. Übernimm daraus Anrede (du/Sie), Tonalität, Glossar
+   `brand-brief.md` im Stammverzeichnis des Projekts. Übernimm daraus Anrede (du/Sie),
+   Tonalität, Glossar
    (welche Begriffe bleiben englisch, z. B. „das Dashboard“), verbotene Wörter. Enthält
    der Brief **Stimmproben**, nutze sie als Kalibrier-Maßstab (Schritt 2), wenn die
    Autorin keine eigene Probe liefert. Der Brief **schlägt** jede Regel hier. Fehlt er,
@@ -147,7 +148,7 @@ skalierbar, zukunftssicher) sind durch konkrete Handlungen ersetzt.
 ✓ *Output (menschlich, Sie):*
 > „Mit [Produkt] steht der Dienstplan in Minuten, nicht in Stunden. Urlaubsanträge
 > genehmigen Sie mit einem Klick – und die Lohnbuchhaltung bekommt am Monatsende einen
-> sauberen Export. Über 3.000 Teams planen so ihre Schichten.“
+> sauberen Export. Über [3.000] Teams planen so ihre Schichten.“
 
 *Warum:* Die aufgeblähte Höflichkeit („Wir möchten Sie höflich darauf hinweisen, dass…“)
 ist gestrichen. Die importierte Dreierfigur und der Scheinparallelismus („nicht nur …,

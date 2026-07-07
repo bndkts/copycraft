@@ -142,9 +142,9 @@ kleine Teams.“
 > **H2s (Compound- + Split-Varianten, echte Fragen):** „Arbeitszeiten erfassen: Was ist
 > Pflicht?“ · „Stempeluhr oder App – was passt zu deinem Team?“ · „Was kostet eine
 > Zeiterfassungs-App?“
-> **Meta-Title (49 Zeichen + Marke):** Zeiterfassung: Arbeitszeiten digital erfassen |
+> **Meta-Title (45 Zeichen + Marke):** Zeiterfassung: Arbeitszeiten digital erfassen |
 > [Produkt]
-> **Meta-Description (139 Zeichen):** Wie digitale Zeiterfassung funktioniert, was sie
+> **Meta-Description (133 Zeichen):** Wie digitale Zeiterfassung funktioniert, was sie
 > kostet und wann sie Pflicht ist – einfach erklärt. So wird dein Team die Zettel los.
 > **CTA:** Mehr erfahren
 

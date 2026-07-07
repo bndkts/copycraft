@@ -39,7 +39,8 @@ Zwei Dinge sauber trennen:
 ## Ablauf
 
 1. **Markenbrief lesen.** Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md`
-   im Projektstamm. Steht dort eine du/Sie-Entscheidung, ist sie die **Zielanrede** – ohne
+   im Stammverzeichnis des Projekts. Steht dort eine du/Sie-Entscheidung, ist sie die
+   **Zielanrede** – ohne
    Rückfrage. Steht dort ein Glossar oder verbotene Wörter, beachte sie mit.
 2. **Keine Entscheidung im Brief?** Dann hilf entscheiden (siehe „Entscheiden“). Frag
    die Zielgruppe ab, nicht die „Tech-heit“ des Produkts. Schlage eine Anrede vor,
