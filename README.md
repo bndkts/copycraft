@@ -19,11 +19,11 @@ consistency, and German typography.
 
 ## What's inside
 
-Twelve self-contained skills:
+Fifteen self-contained skills:
 
 | Skill | Lang | What it does |
 |---|---|---|
-| `brand-voice` | neutral | Define your brand voice; create & maintain the shared `brand-brief.md` (du/Sie, glossary, proof points, banned words). |
+| `brand-voice` | neutral | Define your brand voice; create & maintain the shared `brand-brief.md` (du/Sie, glossary, proof points, banned words, voice samples). |
 | `copy-polish` | EN + DE | Improve existing copy without rewriting it. Detects language: EN "Seven Sweeps"; DE anti-translationese "Lektorat". |
 | `copywriting-en` | EN | Generate English conversion copy from scratch. |
 | `texten-de` | DE | Generate German conversion copy from scratch (German Werbetexter voice). |
@@ -35,6 +35,9 @@ Twelve self-contained skills:
 | `humanizer-de` | DE | Strip German AI-tells (built natively, not translated from the EN list). |
 | `landing-page` | EN + DE | Full landing-page structure and section-by-section copy. |
 | `seo-copy` | EN + DE | Search-intent-aligned copy, with German keyword/compound handling. |
+| `email-copy` | EN + DE | Marketing & lifecycle emails: subjects, preheaders, welcome/trial-end/win-back sequences, newsletters. |
+| `ads-copy` | EN + DE | Paid ad copy inside real character limits: Google RSA, Meta, LinkedIn — with message match to the landing page. |
+| `microcopy-ux` | EN + DE | Interface strings: buttons, errors, empty states, forms, dialogs — where du/Sie mixing actually creeps in. |
 
 All skills read one shared, user-maintained `brand-brief.md` so they stay consistent and
 never re-ask the basics. The `brand-voice` skill creates it; the rest read it.
@@ -51,7 +54,7 @@ never re-ask the basics. The `brand-voice` skill creates it; the rest read it.
 ```
 
 The first command registers this repo as a marketplace; the second installs the plugin.
-All twelve skills become available and auto-invoke when relevant.
+All fifteen skills become available and auto-invoke when relevant.
 
 **A single skill (copy one folder):**
 
@@ -82,7 +85,8 @@ It works immediately, no plugin install required.
 1. **Install** (above).
 2. **Create your brand brief.** Ask Claude: *"Use brand-voice to set up my brand brief."*
    It walks you through positioning, audience, voice, your du/Sie decision, proof points,
-   and a terminology glossary, then writes `.claude/brand-brief.md` in your project.
+   a terminology glossary, and 3–5 approved voice samples (the strongest voice control),
+   then writes `.claude/brand-brief.md` in your project.
 3. **Polish a page.** Paste a hero or landing section and ask: *"Polish this"* (or, in
    German, *"Mach diesen Text besser"* / *"Das klingt übersetzt — bitte idiomatisch"*).
    `copy-polish` detects the language and applies the right editorial passes.
