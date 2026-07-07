@@ -36,11 +36,12 @@ How it relates to the neighbors:
 
 ### 1. Read the brand brief if it exists — never block on it
 
-Look for `brand-brief.md` in the working directory. If present, obey its voice adjectives
-and **anti-adjectives**, its formality, glossary, and banned-words list — they override the
-defaults here, and a word the brief bans goes even if it survives every other test. If
-there is no brief, infer the voice from the text itself and proceed. **Never require the
-brief to exist.**
+Look for `.claude/brand-brief.md` first, then `brand-brief.md` in the project root. If
+present, obey its voice adjectives and **anti-adjectives**, its formality, glossary, and
+banned-words list — they override the defaults here, and a word the brief bans goes even
+if it survives every other test. If the brief carries **voice samples**, treat them as a
+supplied writing sample for step 2. If there is no brief, infer the voice from the text
+itself and proceed. **Never require the brief to exist.**
 
 ### 2. Calibrate to the user's voice if you can
 
@@ -139,28 +140,29 @@ beat; a true, distinct triad can stay. Forbidding these outright is how you get 
   stat became a marked placeholder rather than an invented number.
 - Kept one em dash — it lands the "within the hour" beat.
 
-### Example B — same job, calibrated to a user's voice
+### Example B — same job, calibrated to a user's voice (different domain: email marketing)
 
 **Input (copy to fix)**
-> "Our solution leverages cutting-edge AI to deliver seamless, robust protection across a
-> wide range of channels, empowering your team to navigate the evolving threat landscape."
+> "Our solution leverages cutting-edge AI to deliver seamless, robust campaign
+> optimization across a wide range of channels, empowering your team to navigate the
+> ever-evolving marketing landscape."
 
 **Voice sample the user supplied (2 paragraphs, paraphrased fingerprint):** short
 declarative sentences, ~9 words, heavy direct "you", contractions throughout, dry and
 plain, no em dashes, occasional one-line paragraph.
 
 **Output**
-> "You can't watch every channel yourself. We do it for you. Our AI flags impostor accounts
-> the hour they appear, and we file the takedown. You get a one-line update when each one's
-> gone."
+> "You shouldn't need a data team to send a good newsletter. The AI picks each
+> subscriber's best send time and subject line. You write; it handles the rest. Your open
+> rate's on the first screen, so you'll know if it's working."
 
 **What changed and why**
-- All AI vocabulary ("leverages, cutting-edge, seamless, robust, navigate, evolving
+- All AI vocabulary ("leverages, cutting-edge, seamless, robust, navigate, ever-evolving
   landscape") and the false range ("a wide range of channels") removed.
 - Rewritten to the sample's *fingerprint*: short declaratives, direct "you", contractions,
   no em dashes — not a generic clean version. Same facts, the user's rhythm.
-- "AI" kept (it's a real mechanism the user uses), but proven by the speed rather than
-  dressed up as "cutting-edge".
+- "AI" kept (it's a real mechanism the user uses), but proven by what it decides — send
+  time and subject line — rather than dressed up as "cutting-edge".
 
 ## Before you deliver
 

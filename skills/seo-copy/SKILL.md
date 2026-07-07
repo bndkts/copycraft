@@ -39,9 +39,10 @@ reader; a hard pitch on an informational query loses the ranking.
 ## Before you write
 
 ### Read the brand brief if it exists
-Look for `brand-brief.md` (often under `.claude/`) in the working directory. If present,
-obey its voice, audience, **du/Sie** (German), glossary, and banned words — they win over
-any default here. A keyword never overrides a banned word or the brand's chosen term: if
+Look for `.claude/brand-brief.md` first, then `brand-brief.md` in the project root. If
+present, obey its voice, audience, **du/Sie** (German), glossary, banned words, and —
+where it has them — its voice samples (match their rhythm and word choice) — they win
+over any default here. A keyword never overrides a banned word or the brand's chosen term: if
 the brief says the product is „Markenschutz-Plattform“, do not switch to a higher-volume
 synonym in the H1 just because a tool reports more searches. **Never require the brief to
 exist**; if there's none, proceed and ask only for the genuine gaps.
@@ -125,31 +126,33 @@ Why: the keyword sits in the H1 and first sentence without stuffing; H2s use var
 buyer questions; the meta description is benefit + proof + CTA, within length; commercial
 intent is served by leading with the differentiator.
 
-### Example 2 — German, informational intent (Sie)
-**Input:** „SEO-Text fürs Glossar. Keyword: *Markenschutz*. Suchintention: Was ist
-Markenschutz im Internet? Anrede: Sie.“
+### Example 2 — German, informational intent (du)
+**Input:** „SEO-Text für eine Ratgeber-Seite. Keyword: *Zeiterfassung*. Suchintention:
+Wie funktioniert digitale Zeiterfassung? Anrede: du. Produkt: Zeiterfassungs-App für
+kleine Teams.“
 
 **Output:**
 > **Intent:** informational → die Frage zuerst direkt beantworten, dann vertiefen. Kein
 > Pitch oben.
 >
-> **H1:** Markenschutz im Internet: Was er bedeutet und wie er funktioniert
-> **Erste Zeile (Antwort zuerst, Keyword im ersten Satz):** „Markenschutz im Internet
-> bedeutet, gefälschte Shops, Phishing-Seiten und Fake-Profile aufzuspüren, die Ihre Marke
-> missbrauchen – und sie vom Netz nehmen zu lassen.“
-> **H2s (Compound- + Split-Varianten, echte Fragen):** „Schutz der Marke vs.
-> Markenüberwachung“ · „Wie erkennt man eine gefälschte Website?“ · „Was kostet
-> Markenschutz?“
-> **Meta-Title (52 Zeichen):** Markenschutz im Netz | Fake-Shops & Phishing stoppen
-> **Meta-Description (132 Zeichen):** Was ist Markenschutz im Internet? So erkennen Sie
-> gefälschte Shops und Phishing-Seiten – und nehmen sie vom Netz. Jetzt informieren.
+> **H1:** Digitale Zeiterfassung: So erfasst dein Team Arbeitszeiten ohne Zettel
+> **Erste Zeile (Antwort zuerst, Keyword im ersten Satz):** „Digitale Zeiterfassung
+> heißt: Dein Team stempelt per App oder Browser ein, und die Arbeitszeiten landen
+> automatisch in einer Übersicht – ohne Excel-Liste und Stundenzettel.“
+> **H2s (Compound- + Split-Varianten, echte Fragen):** „Arbeitszeiten erfassen: Was ist
+> Pflicht?“ · „Stempeluhr oder App – was passt zu deinem Team?“ · „Was kostet eine
+> Zeiterfassungs-App?“
+> **Meta-Title (49 Zeichen + Marke):** Zeiterfassung: Arbeitszeiten digital erfassen |
+> [Produkt]
+> **Meta-Description (139 Zeichen):** Wie digitale Zeiterfassung funktioniert, was sie
+> kostet und wann sie Pflicht ist – einfach erklärt. So wird dein Team die Zettel los.
 > **CTA:** Mehr erfahren
 
 Warum: Die informationale Frage wird in der ersten Zeile beantwortet (gut für Snippet und
-Leser). Das Compound *Markenschutz* steht in H1 und erstem Satz; die Split-Form *Schutz
-der Marke* und das Compound *Markenüberwachung* leben in den H2 – keine erzwungene
-Wiederholung. Typografie (`„…“`, Halbgeviert mit Leerzeichen, kein „in 2024“) stimmt; die
-Anrede bleibt durchgehend Sie.
+Leser). Das Compound *Zeiterfassung* steht in H1 und erstem Satz; die Split-Form
+*Arbeitszeiten erfassen* und das Compound *Zeiterfassungs-App* leben in den H2 – keine
+erzwungene Wiederholung. Typografie (`„…“`, Halbgeviert mit Leerzeichen, Durchkopplung
+„Zeiterfassungs-App“) stimmt; die Anrede bleibt durchgehend du.
 
 ## Hard rules vs. contested style
 

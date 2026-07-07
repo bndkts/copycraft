@@ -50,32 +50,34 @@ meist eine Übersetzung – und selten gutes Deutsch.
 
 ## Den Markenbrief lesen (falls vorhanden)
 
-Lies `brand-brief.md`, wenn die Datei existiert. Sie entscheidet über **du oder Sie**,
-Tonalität, Glossar (welche englischen Begriffe bleiben, z. B. „Phishing“, „Takedown“),
-gesperrte Wörter und Proof-Punkte. Der Markenbrief schlägt im Zweifel jede allgemeine
-Regel. Existiert er nicht, frag kurz nach der Anrede (du/Sie) oder triff eine begründete
-Annahme und mach sie transparent – erfinde keine Marke.
+Suche zuerst `.claude/brand-brief.md`, dann `brand-brief.md` im Projektstamm. Existiert
+die Datei, entscheidet sie über **du oder Sie**, Tonalität, Glossar (welche englischen
+Begriffe bleiben, z. B. „Phishing“, „Takedown“), gesperrte Wörter und Proof-Punkte.
+Enthält sie **Stimmproben**, schreib dein Deutsch auf deren Satzlänge, Rhythmus und
+Wortwahl zu – die Proben schlagen die Adjektive. Der Markenbrief schlägt im Zweifel jede
+allgemeine Regel. Existiert er nicht, frag kurz nach der Anrede (du/Sie) oder triff eine
+begründete Annahme und mach sie transparent – erfinde keine Marke.
 
 ## Beispiele (Input → Output)
 
 **Beispiel 1 – Englischer Hero ins Deutsche**
 
 Input (EN):
-> „Take your brand protection to the next level. Get started today and stop worrying
-> about fake shops.“
+> „Take your team's collaboration to the next level. Get started today and stop worrying
+> about missed deadlines.“
 
 ✗ Übersetzt (Satz für Satz, mit Calques):
-> „Bringen Sie Ihren Markenschutz auf das nächste Level. Starten Sie noch heute und
-> machen Sie sich keine Sorgen mehr über Fake-Shops.“
+> „Bringen Sie die Zusammenarbeit Ihres Teams auf das nächste Level. Starten Sie noch
+> heute und machen Sie sich keine Sorgen mehr über verpasste Deadlines.“
 
 ✓ Lokalisiert (aus der Bedeutung):
-> „Schützen Sie Ihre Marke wirksamer vor Fake-Shops – ganz ohne ständige Sorge.
+> „So arbeitet Ihr Team wirklich zusammen – und kein Termin rutscht mehr durch.
 > Jetzt kostenlos starten.“
 
 Warum: „auf das nächste Level“ und „machen Sie sich keine Sorgen über“ sind
-Lehnübersetzungen („next level“, „worry about“). Die Bedeutung – besserer Schutz, weniger
-Sorge, klarer nächster Schritt – wird neu und mit Verben formuliert. CTA nativ statt
-„Get started“ (siehe `references/cta-map-de.md`).
+Lehnübersetzungen („next level“, „worry about“). Die Bedeutung – bessere Zusammenarbeit,
+keine verpassten Termine, klarer nächster Schritt – wird neu und mit Verben formuliert.
+CTA nativ statt „Get started“ (siehe `references/cta-map-de.md`).
 
 **Beispiel 2 – Deutsch, das übersetzt klingt, idiomatisch machen**
 

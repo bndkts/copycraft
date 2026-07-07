@@ -61,11 +61,13 @@ you, not the reader, and there's no proof to build on. Want me to go ahead?"*
 
 ### 3. Read the brand brief if it exists
 
-Look for a `brand-brief.md` in the project (voice adjectives and anti-adjectives, du/Sie,
-glossary, banned words, proof points). If present, it **overrides** these defaults — match
-its voice and respect its banned-words list and glossary. If absent, infer the voice from
-the copy itself and from any 2–3 paragraphs of the author's writing the user supplies, and
-proceed. **Never block on a missing brief.**
+Look for `.claude/brand-brief.md` first, then `brand-brief.md` in the project root
+(voice adjectives and anti-adjectives, du/Sie, glossary, banned words, proof points). If
+present, it **overrides** these defaults — match its voice and respect its banned-words
+list and glossary. If the brief carries **voice samples (Stimmproben)**, they are your
+sharpest target: polish *toward* their sentence length, rhythm, and word choice. If
+absent, infer the voice from the copy itself and from any 2–3 paragraphs of the author's
+writing the user supplies, and proceed. **Never block on a missing brief.**
 
 ### 4. Run the passes, one focused sweep at a time
 
@@ -109,28 +111,27 @@ Mitbewerber den Satz 1:1 übernehmen?“* → ja = Floskel = streichen.)
 
 ## Examples
 
-> Both examples are original and constructed (domain: brand protection); they are not
-> copied from any live site.
+> Both examples are original and constructed; they are not copied from any live site.
 
 ### Example A — English refresh (hero + trust line)
 
 **Input**
-> "Our innovative, end-to-end platform empowers organizations to holistically safeguard
-> their brand in today's fast-paced digital landscape. We are a trusted, reliable partner
-> committed to delivering world-class security for businesses of all sizes."
+> "Our innovative, all-in-one workspace empowers teams of all sizes to seamlessly
+> collaborate in today's fast-paced work environment. We are passionate about
+> productivity and committed to delivering a world-class experience."
 
 **Verdict:** Refresh. The offer is sound; the copy is all filler and no proof.
 
 **Output**
-> "We find the fake websites, phishing pages, and impostor profiles abusing your brand —
-> and get them taken down. GDPR-compliant, data hosted in Germany, incident response
-> within 24 hours, 1,200+ brands protected."
+> "One workspace for your team's tasks, docs, and deadlines — so status lives where the
+> work does, not in Monday meetings. Free for teams up to 10; most teams are set up in
+> an afternoon."
 
-**Why:** *Clarity/Voice* cut the AI-corporate tells ("innovative," "holistically," "in
-today's fast-paced landscape," "world-class," "of all sizes"). *So what?/Specificity* led
-with the reader's concrete outcome and named the threats. *Prove it* swapped "trusted,
-reliable partner" — which any competitor could paste verbatim — for four checkable facts.
-The author's plain, declarative rhythm is preserved.
+**Why:** *Clarity/Voice* cut the AI-corporate tells ("innovative," "seamlessly," "in
+today's fast-paced work environment," "world-class," "of all sizes"). *So what?/
+Specificity* led with the reader's concrete outcome (status without status meetings).
+*Prove it* swapped "passionate and committed" — which any competitor could paste
+verbatim — for checkable offer facts. The author's plain, declarative rhythm is preserved.
 
 ### Example B — German Lektorat (translationese removed)
 
