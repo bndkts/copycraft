@@ -18,12 +18,15 @@ exists, use `copy-polish`. For German, use `texten-de`.
 ## Before you write
 
 ### 1. Read the brand brief if it exists
-Look for `brand-brief.md` in the working directory (or ask the user where it lives).
-It is the source of truth for voice, positioning, audience, glossary, and banned
-words. If it exists, extract and obey:
+Look for `.claude/brand-brief.md` first, then `brand-brief.md` in the project root (or
+ask the user where it lives). It is the source of truth for voice, positioning,
+audience, glossary, and banned words. If it exists, extract and obey:
 - **Audience** — who they are, their own words, what they fear and want.
 - **Voice & tone** — the adjectives *and* the anti-adjectives (what the brand never
   sounds like).
+- **Voice samples (Stimmproben)** — if the brief carries approved sample lines, they are
+  the strongest voice signal you have: match their sentence length, rhythm, and word
+  choice. When a sample and an adjective pull apart, the sample wins.
 - **Positioning / differentiator** — the one true claim only this brand can make.
 - **Proof assets** — real numbers, customers, certifications, guarantees.
 - **Glossary & banned words** — product naming, terms to use, terms to avoid.
@@ -66,6 +69,22 @@ The one test that catches most filler: **could a competitor paste this exact sen
 their site without it becoming false?** If yes, it says nothing about this brand — make
 it specific.
 
+## Variants first, then judgment
+
+For the high-stakes units — the hero, each value prop, the primary CTA — never ship your
+first draft. Write **2–3 variants from different angles**:
+
+- **Outcome first:** the reader's result, stated plainly.
+- **Pain first:** the problem the reader wants gone, in their words.
+- **Mechanism first:** the how, doing double duty as proof.
+
+Then judge against the checklist, not by feel: does it pass the competitor copy-paste
+test? Does it carry proof? Does the CTA lead with a strong verb? Does it match the
+brief's voice samples? Deliver the strongest variant as your recommendation and the
+runner-up as an A/B candidate, each with a one-line reason. Discard the rest silently.
+Body copy and secondary sections need one clean draft; the variant discipline is for the
+lines where a single sentence decides the conversion.
+
 ## Writing each unit
 
 ### Hero (headline + subhead + primary CTA)
@@ -105,20 +124,23 @@ a risk-reducer beside it. See the CTA do/don't pairs in the checklist.
 
 ### Example A — Input → Output: turn features into benefits
 **Input (raw features from the user):**
-> "24/7 social media monitoring; AI detection; takedown service; weekly report."
+> "Booking software for hair salons: online booking 24/7; automated SMS reminders;
+> no-show tracking; weekly revenue report."
 
 **Output:**
-> **Know the moment someone impersonates you.** We watch social platforms around the
-> clock and flag impostor accounts automatically — usually within the hour, not at the
-> next quarterly review.
+> **Your calendar fills itself — even at 11 pm.** Clients book online around the clock;
+> you see every new appointment the moment you open the app, instead of returning calls
+> between cuts.
 >
-> **We don't just spot it, we get it removed.** Our team files the takedown and confirms
-> when the fake account is gone, so you're not chasing platforms yourself.
+> **Fewer empty chairs.** Every client gets an SMS reminder the day before —
+> [X]% fewer no-shows for a typical salon — and repeat offenders are flagged before you
+> take their next booking.
 >
-> *Every Monday, one short report: what we found, what we removed, what's still open.*
+> *Every Monday, one short report: bookings, revenue, and who didn't show.*
 
-Why: each feature became a reader outcome; "AI detection" is proven by the speed, not
-dropped as a buzzword; the weekly report is framed as relief, not a deliverable.
+Why: each feature became an owner outcome; the reminders are proven by the mechanism
+(timing), not praised as "smart"; the no-show stat is a bracketed placeholder, not an
+invented number; the report is framed as relief, not a deliverable.
 
 ### Example B — Input → Output: hero from a brief
 **Input:**
@@ -168,7 +190,10 @@ writing" (see `humanizer-en`).
 - [ ] Every claim has real proof or a clearly marked placeholder — nothing fabricated.
 - [ ] One idea per section; the point is in the first line.
 - [ ] Each CTA = verb + benefit, one primary action, risk-reducer nearby.
-- [ ] Voice matches the brief's adjectives *and* anti-adjectives.
+- [ ] Voice matches the brief's adjectives *and* anti-adjectives — and mirrors the
+      voice samples' rhythm and word choice where the brief has them.
+- [ ] Hero, value props, and primary CTA went through 2–3 variants and a checklist
+      judgment; the runner-up is offered as an A/B candidate.
 - [ ] No uncut AI-vocabulary smells unless one is deliberately the best word.
 
 ## References
